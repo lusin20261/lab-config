@@ -6,7 +6,7 @@ REPO=/home/alumno/.config/lab-config
 
 cd "$REPO"
 
-git pull master
+git pull origin main
 
 sudo python3 generate_rules.py
 
